@@ -12,15 +12,8 @@ static unsigned char MAP2[128];
 
 void init_map2() {
     memset(MAP2, 255, 128);
-    for (int i = 0; i < 64; i++)
-    {
-        MAP2[(unsigned char)MAP1[i]] = (unsigned char)i;,
-        "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.40.33807/include",
-        "C:/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/ucrt",
-        "C:/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/shared",
-        "C:/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/um",
-        "C:/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/winrt",
-        "C:/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/cppwinrt"
+    for (int i = 0; i < 64; i++) {
+        MAP2[(unsigned char)MAP1[i]] = (unsigned char)i;
     }
 }
 
